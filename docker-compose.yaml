@@ -9,6 +9,5 @@ services:
       - "3000:3000" # Mapping host port 3000 to container port 3000
     environment:
       NODE_ENV: development # Setting environment variables as needed
-    volumes:
-      - .:/app # Mounting the current directory to /app in the container
+    
     command: npm run start # Command to run the application
