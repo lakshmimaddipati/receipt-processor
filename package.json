@@ -1,0 +1,33 @@
+{
+  "name": "express-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "test": "jest",   
+    "build": "tsc",
+    "start": "node dist/index.js"   
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "express": "^4.19.2",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.0.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "ts-jest": "^29.2.3",
+    "typescript": "^5.5.4"
+  }
+}
