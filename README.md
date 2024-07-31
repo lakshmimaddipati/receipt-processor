@@ -74,6 +74,8 @@ cd receipt-processor
 ```
 
 ### Running the Application
+```
 docker-compose up --build
+```
 
-The Application is available on on PORT 3000 on local machine
+The receipt processor application is available on on PORT 3000 on local machine.
