@@ -66,10 +66,13 @@ Ensure you have the following installed:
 - [Docker](https://www.docker.com/products/docker-desktop) (if using Docker)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
-### Clone the Repository
+### Clone the Repository 
 
 ```bash
 git clone https://github.com/lakshmimaddipati/receipt-processor.git
 cd receipt-processor
+```
+
+### Running the Application
 docker-compose up --build
 
